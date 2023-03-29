@@ -1,1 +1,2 @@
 # codestore
+Codestore was my first big ambitious project meant for developers to be able to publish their code. Users could create an account, verify their email, and publish the code they wanted to sell. Publishing their code would allow other users to buy this code, leave a review or like, and allow other coders to add onto programs they bought. The front-end was setup using the ReactJS library and Mobex library. 
