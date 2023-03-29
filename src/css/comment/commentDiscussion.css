@@ -1,0 +1,11 @@
+.commentDiscussionContainer{
+    border-radius: 2px;
+    width: 95%;
+    margin-top: 20px;
+    /*background-color: white;*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}

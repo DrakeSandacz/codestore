@@ -1,0 +1,167 @@
+.featuredItem{
+    cursor: pointer;
+    border-radius: 3px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: stretch;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.2s ease;
+
+}
+
+.featuredItemInfoContainer{
+
+    width: 45%;
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    transition: all 0.2s ease;
+
+
+}
+
+.featuredItemInfoContainer > .titleContainer{
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 30%;
+
+    /*background-color: green;*/
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.featuredItemInfoContainer > .titleContainer > h4{
+    color: white;
+    font-size: 40px;
+    margin-left: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.featuredItemInfoContainer > .descriptionContainer{
+    flex: 1;
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    /*padding-top: 10px;*/
+    padding-left: 10px;
+    padding-right: 100px;
+}
+
+.featuredItemInfoContainer > .descriptionContainer > p{
+    color: white;
+    margin-right: 90px;
+    margin-left: 10px;
+    text-align: left;
+
+}
+
+.featuredItemInfoContainer > .buttonContainer{
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.featuredItemInfoContainer > .buttonContainer > .featButton{
+    cursor: pointer;
+    height: 60%;
+    width: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.featuredItemInfoContainer > .buttonContainer > .featButton:hover{
+    background-color: #bfbfbf;
+}
+
+.featuredItemInfoContainer > .buttonContainer > .featButton > p{
+    color: black;
+    font-size: 18px;
+    align-self: center;
+}
+
+@media only screen and (max-width: 1023px) {
+
+    .featuredItem{
+        flex-direction: column;
+    }
+
+    .featuredItemInfoContainer{
+        width: unset;
+        height: 190px;
+    }
+
+    .featuredItemInfoContainer > .titleContainer{
+        flex: 1;
+    }
+
+    .featuredItemInfoContainer > .titleContainer > h4{
+        margin-top: 0;
+        margin-bottom: 0;
+        max-width: 600px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+
+    }
+
+
+    .featuredItemInfoContainer > .buttonContainer > .featButton{
+        display: none;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 800px) {
+    .featuredItem{
+        height: 460px;
+    }
+
+
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .featuredItemInfoContainer > .descriptionContainer > p{
+        margin-right: 20px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+@media only screen and (max-width: 540px){
+    .featuredItemInfoContainer > .titleContainer > h4{
+        font-size: 30px;
+
+    }
+
+}

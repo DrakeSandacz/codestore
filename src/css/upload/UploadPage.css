@@ -1,0 +1,36 @@
+.uploadPage{
+    margin-top: 60px;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.uploadPage > .uploadRow{
+    flex: 1;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.uploadPage > .uploadRow:nth-child(1){
+    margin-left: 2%;
+}
+
+.uploadPage > .uploadRow:nth-child(2){
+
+}
+
+@media only screen and (max-width: 900px) {
+    .uploadPage{
+        height: unset;
+    }
+
+}

@@ -1,0 +1,126 @@
+.homeFooter{
+    margin-top: 60px;
+    border-top: 1px solid #4d4d4d;
+    height: 200px;
+    width: 100%;
+    background-color: #1d1d1d;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    bottom: 0;
+}
+
+.companyContainer {
+    flex: 1;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    color: white;
+}
+
+.companyContainer > h3 {
+    justify-content: flex-start;
+    align-self: flex-start;
+    padding-left: 20%;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: start;
+    margin-bottom: 0px;
+
+}
+
+.companyContainer > h5 {
+    justify-content: flex-start;
+    align-self: flex-start;
+    padding-left: 20%;
+    font-weight: 100;
+    font-size: 15px;
+    text-align: start;
+    margin-bottom: -10px;
+
+
+}
+
+.linkStyle {
+    color:white;
+    text-decoration: none;
+}
+
+.linkStyle:hover {
+    color: lightgray;
+}
+
+.contactUs {
+    flex: 1;
+    justify-content: flex-start;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    color: white;
+}
+
+.contactUs > h3 {
+    align-self: flex-start;
+    padding-left: 30%;
+    font-weight: 100;
+    font-size: 20px;
+    margin-bottom: 0px;
+
+
+}
+
+.contactUs > h5 {
+    align-self: flex-start;
+    padding-left: 30%;
+    font-weight: 100;
+    font-size: 15px;
+    text-align: start;
+    margin-bottom: -10px;
+
+}
+
+.emailContainer {
+    flex: 1;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    color: white;
+}
+
+.emailContainer > h3 {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.emailSignUp {
+    height: 30px;
+    width: 85%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #2a2a2a;
+    color: white;
+    font-size: 12px;
+}
+
+.emailSignUp::placeholder{
+    color: #5b5b5b;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.emailEntrySubmit {
+    cursor: pointer;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 15%;
+    background-color: rgb(27,160,252);
+
+
+}

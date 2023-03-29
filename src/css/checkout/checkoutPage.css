@@ -1,0 +1,115 @@
+.checkoutPageContainer {
+    display: flex;
+    height: 800px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.checkoutFormContainer {
+    display:flex;
+    height:75%;
+    width:50%;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    border-radius: 25px;
+    flex-direction: column;
+    background-color: #3e434c;
+}
+.group {
+    position: relative;
+    margin-bottom:45px;
+}
+
+input {
+    font-size:12px;
+    padding:10px 10px 10px 5px;
+    display:flex;
+    width:250px;
+    border:none;
+    border-bottom:1px solid #757575;
+}
+
+input:focus {
+    outline:none;
+}
+
+label {
+    color:#999;
+    font-size:12px;
+    font-weight:normal;
+    position:absolute;
+    pointer-events:none;
+    left:5px;
+    top:10px;
+    transition:0.3s ease all;
+    -moz-transition:0.3s ease all;
+    -webkit-transition:0.3s ease all;
+}
+input:focus ~ label, input:valid ~ label{
+    top:-20px;
+    font-size:14px;
+    color:#00AAFF;
+}
+
+.bar {
+    position:relative;
+    display:block;
+    width:100%;
+}
+.bar:before, .bar:after {
+    content:'';
+    height:1px;
+    width:0;
+    bottom:1px;
+    position:absolute;
+    background:#00AAFF;
+    transition:0.2s ease all;
+    -moz-transition:0.2s ease all;
+    -webkit-transition:0.2s ease all;
+}
+.bar:before {
+    left:50%;
+}
+.bar:after {
+    right:50%;
+}
+
+/* active state */
+input:focus ~ .bar:before, input:focus ~ .bar:after {
+    width:50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.highlighter {
+    position:absolute;
+    height:60%;
+    width:100px;
+    top:25%;
+    left:0;
+    pointer-events:none;
+    opacity:0.5;
+}
+
+/* active state */
+input:focus ~ .highlighter {
+    -webkit-animation:inputHighlighter 0.3s ease;
+    -moz-animation:inputHighlighter 0.3s ease;
+    animation:inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+    from { background:#5264AE; }
+    to 	{ width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+    from { background:#5264AE; }
+    to 	{ width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+    from { background:#5264AE; }
+    to 	{ width:0; background:transparent; }
+}

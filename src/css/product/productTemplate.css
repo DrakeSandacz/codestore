@@ -1,0 +1,18 @@
+.productAndCommentContainer {
+    display:flex;
+    height: 50px;
+    width: 100%;
+    background-color: gray;
+}
+
+.productTabContainer {
+    flex: .7;
+    display:flex;
+    justify-content: center;
+}
+
+.commentTabContainer {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}

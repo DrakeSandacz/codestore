@@ -1,0 +1,59 @@
+.accountPage{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.accountPageHeader{
+    width: 95%;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.accountPageHeader > h4{
+    color: white;
+    font-size: 32px;
+    margin-left: 5px;
+    font-weight: 400;
+}
+
+.testAccountView{
+    width: 95%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*My projects tab*/
+
+.myProjectsContainer{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+/*My likes tab*/
+
+.myLikesContainer{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}

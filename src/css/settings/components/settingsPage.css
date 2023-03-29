@@ -1,0 +1,24 @@
+.settingsPageContainer {
+    height: 100%;
+    width: 100%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.editAccountContainer {
+    height: 10%;
+    width: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.editAccount {
+    font-size: 30px;
+    color: white;
+    font-weight: 300;
+    font-family: Roboto;
+}
+

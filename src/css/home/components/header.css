@@ -1,0 +1,130 @@
+.homeHeader{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #1d1d1d;
+    background-repeat: no-repeat;
+    background-size: 62%;
+    background-position: center 18%;
+    padding-top: 1%;
+
+}
+
+.featuredContainer{
+    height: 400px;
+    width: 90%;
+    background-color: #fa6800 !important;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    box-shadow: inset 0 0 2px #FFFFCC;
+    transition: all 0.3s ease;
+}
+
+
+
+
+
+
+
+
+.headerTabsContainer{
+    margin-top: 2%;
+    height: 90px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.headerTabsContainer > .tabContainer{
+    flex: 1;
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.headerTabsContainer > .tabContainer:nth-child(2){
+    justify-content: flex-end;
+}
+
+
+.tabOne{
+    cursor: pointer;
+    height: 80%;
+    width: 95%;
+    background-color: #7E52A0;
+    display: flex;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease;
+}
+
+.tabOne:hover{
+    box-shadow: inset 0 0 2px #D7DAE5;
+    background-color: #1D1D1D;
+}
+
+.tabTwo{
+    cursor: pointer;
+    height: 80%;
+    width: 95%;
+    background-color: #3772FF;
+    border-radius: 3px;
+
+    /*box-shadow: inset 0 0 1px #FFFFCC;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease;
+}
+
+
+.tabTwo:hover{
+    background-color: #1D1D1D;
+    box-shadow: inset 0 0 2px #D7DAE5;
+}
+
+.headerTabText{
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    margin-left: 5%;
+}
+
+.headerTabIcon{
+    font-size: 22px;
+}
+
+
+@media only screen and (max-width: 680px) {
+    .headerTabText{
+        font-size: 25px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .headerTabsContainer{
+        flex-direction: column;
+        height: 150px;
+    }
+
+    .tabOne{
+        width: 100%;
+    }
+
+    .tabTwo{
+        width: 100%;
+    }
+
+
+}

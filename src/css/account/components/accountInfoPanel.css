@@ -1,0 +1,28 @@
+.accountInfoPanelContainer{
+    flex: 1;
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.accountInfoPanel{
+    height: 90%;
+    width: 97%;
+    margin-right: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.accountHeaderContainer {
+    height: 5%;
+    width: 100%;
+    display:flex;
+    background-color: grey;
+}

@@ -1,0 +1,89 @@
+.categoryHeader{
+     height: 100px;
+     width: 90%;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     justify-content: flex-start;
+     align-items: stretch;
+     /*border-bottom: 5px solid #0ebeff;*/
+    border-bottom: 3px solid white;
+ }
+
+.categoryHeaderColumn:nth-child(1){
+    flex: 1;
+    align-self: stretch;
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.categoryHeaderColumn:nth-child(1) > h1{
+    color: white;
+    margin-bottom: 0 !important;
+    margin-left: 1%;
+    font-size: 43px;
+    font-weight: 300;
+}
+
+.categoryHeaderColumn:nth-child(2){
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 35%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.categorySelectButton{
+    border: none !important;
+    background-color: white !important;
+    position: relative;
+    width: 175px;
+    height: 40px;
+    border-radius: 5px;
+    align-self: flex-end;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    text-align: left;
+}
+
+.categorySelectButton > span{
+    position: absolute;
+    right: 10px;
+}
+
+.categorySelectButton:focus{
+    outline: none;
+}
+
+@media only screen and (max-width: 599px){
+    .categoryHeader{
+        height: unset;
+        flex-direction: column;
+    }
+
+    .categoryHeaderColumn:nth-child(1){
+        justify-content: center;
+    }
+
+    .categoryHeaderColumn:nth-child(1) > h1{
+        margin-left: 0;
+    }
+
+    .categoryHeaderColumn:nth-child(2){
+        justify-content: center;
+    }
+
+    .categorySelectButton{
+        margin-right: 0;
+        margin-top: 10px;
+    }
+}

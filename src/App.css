@@ -1,0 +1,99 @@
+.App {
+  position: relative;
+  text-align: center;
+  background-color: #1d1d1d;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
+
+.DraftEditor-root{
+  background: #fff;
+  border-radius: .3em;
+  padding: 1em;
+}
+
+pre{
+  border: 1px solid #ccc;
+  background: #f0f0f0;
+  border-radius: .2em;
+  padding: .5em;
+  margin: 0;
+}
+
+
+pre > pre{
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.testContainer{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.testHeaderContainer{
+  position: relative;
+  height: 350px;
+  width: calc(100% / 3);
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/code-store-cac5b.appspot.com/o/placeholder.png?alt=media&token=7e0269c6-f0fc-45f0-a710-01351331ae3f");
+  background-size: cover;
+  background-position: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.testInfoContainer{
+  position: absolute;
+  bottom: -60px;
+  height: 90px;
+  width: 95%;
+  background-color: #f5f3f3;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.testHeaderText{
+  /*make text look like apples*/
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+
+

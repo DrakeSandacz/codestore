@@ -1,0 +1,57 @@
+.profileInfoContainer {
+    display: flex;
+    max-width: 1400px;
+    margin: 0 0 0 20px;
+    padding: 0;
+    flex-direction:column;
+    flex-wrap: nowrap;
+}
+
+.profileLinkContainer {
+    margin-top: 20px;
+    height: 50px;
+    width: 96%;
+    border-bottom: 2px solid #0ebeff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.profileLinkHighlight {
+    display: flex;
+    width: 120px;
+    cursor: pointer;
+    align-self: stretch;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    margin-bottom: 2px;
+    border-radius: 2px;
+    background-color: #0ebeff;
+}
+
+.profileLink {
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+}
+
+.usersContainer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.usersProjectsContainer {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}

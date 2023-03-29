@@ -1,0 +1,96 @@
+.categoryPage{
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.categoryProductsContainer{
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.pageButtonsContainer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.pageButtonsContainer > .pageButtonWrapper{
+    flex: 1;
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.previousPageButton{
+    cursor: pointer;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 90%;
+    border-radius: 2px;
+    background-color: white;
+    transition: all 0.2s ease;
+}
+
+.previousPageButton:hover{
+    background-color: #cacaca;
+}
+
+.nextPageButton{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 90%;
+    border-radius: 2px;
+    background-color: white;
+    transition: all 0.2s ease;
+
+}
+
+.nextPageButton:hover{
+    background-color: #cacaca;
+}
+
+
+/*Nothing exists container*/
+
+.nothingExistsContainer{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nothingExistsContainer > h4{
+    color: white;
+    font-size: 32px;
+    margin-top: 0 !important;
+}
+
+.nothingExistsButton{
+
+}

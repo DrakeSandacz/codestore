@@ -1,0 +1,92 @@
+.doNotDisplay{
+    display: none;
+}
+
+.accountDropDown{
+    height: 185px;
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    margin-right: 2%;
+    background-color: white;
+    border-radius: 6px;
+    border: none;
+}
+
+.accountDropDownArrow{
+    position: absolute;
+    right: 30px;
+    top: -24px;
+    font-size: 32px;
+}
+
+.accountDropDown > .column:nth-child(1){
+    flex: 1;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.accountDropDown > .column:nth-child(2){
+    flex: 1;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.accountDropDown > .column:nth-child(3){
+    flex: 1;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.accountDropDown > .column:nth-child(4){
+    border-top: 1px solid #c9c9c9;
+    flex: 1;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.accountDropDownButton{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.accountDropDownButton:hover{
+    background-color: rgba(64, 64, 64, 0.2);
+}
+
+.accountDropDownButton > p {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5%;
+    align-self: center;
+}

@@ -1,0 +1,103 @@
+.uploadPageHeader{
+    height: 100px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.uploadPageHeader > .row{
+    flex: 1;
+    align-self: stretch;
+}
+
+.uploadPageHeader > .row:nth-child(1){
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.uploadPageHeader > .row:nth-child(1) > h4{
+    color: white;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.uploadPageHeader > .row:nth-child(2){
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.saveForLaterButton{
+    cursor: pointer;
+    height: 50px;
+    width: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cac8c8;
+    margin-right: 10%;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.saveForLaterButton:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.saveForLaterButton > p {
+    margin: 0 !important;
+    align-self: center;
+    font-size: 14px;
+    color: white;
+}
+
+.publishButton{
+    cursor: pointer;
+    height: 50px;
+    width: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #2ecb95;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.publishButton:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.publishButton > p {
+    margin: 0 !important;
+    align-self: center;
+    font-size: 14px;
+    color: white;
+}
+
+
+@media only screen and (max-width: 900px){
+    .uploadPageHeader{
+        flex-direction: column;
+        margin-top: 15px;
+        height: 150px;
+    }
+
+
+    .uploadPageHeader > .row:nth-child(1){
+        justify-content: center;
+    }
+
+    .uploadPageHeader > .row:nth-child(2){
+        justify-content: center;
+
+    }
+}

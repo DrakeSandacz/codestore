@@ -1,0 +1,238 @@
+.registerComponent{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.registerErrorAlert{
+    color: red;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+
+
+.modalRegister {
+    display: block;
+    position:fixed;
+    background: white;
+    width: 60%;
+    height: 70%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 5px;
+}
+
+.modalAdjust {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.registerEmailContainer {
+    display: flex;
+    height: 15%;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.registerShopContainer {
+    display: flex;
+    height: 15%;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.registerPasswordContainer {
+    display: flex;
+    height: 15%;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.confirmPasswordContainer {
+    display: flex;
+    height: 15%;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.registerButtonContainer {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.forgotPasswordContainer {
+    display: flex;
+    height: 23%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.registerButton{
+    display: flex;
+    cursor: pointer;
+    height: 55px;
+    width: 50%;
+    background-image: linear-gradient(-180deg, #00AAFF 0%, #3991ff 100%);
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    border-radius: 7px;
+}
+
+.registerText {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.registerInput{
+    height: 30px;
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #D8D8D8;
+    color: #393E46;
+    font-size: 16px;
+}
+
+.registerInput:focus{
+    border: 2px solid dodgerblue;
+}
+
+.registerInput::placeholder{
+    color: #393E46;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.registerMeButton{
+    cursor: pointer;
+    height: 40px;
+    width: 84%;
+    background-image: linear-gradient(-180deg, #00AAFF 0%, #3991ff 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.registerMeButton:hover{
+    background: #3586eb;
+}
+
+.registerMeButton > p{
+    margin: 0 !important;
+    font-size: 18px;
+    color: white;
+    align-self: center;
+}
+
+.alreadyHaveAccountText{
+    margin: 0 !important;
+    font-size: 16px;
+    cursor: pointer;
+    color: #1b9ffd;
+    align-self: center;
+}
+
+.alreadyHaveAccountText:hover{
+    color: #1783d1;
+}
+
+.doNotDisplay{
+    display: none;
+    background-color: green;
+}
+
+@media only screen and (max-width: 600px){
+    .modalRegister{
+        width: 80%;
+    }
+}
+
+
+/*.registerComponent > .column:nth-child(1){*/
+/*position: relative;*/
+/*flex: 1;*/
+/*align-self: stretch;*/
+/*display: flex;*/
+/*flex-direction: column;*/
+/*flex-wrap: nowrap;*/
+/*justify-content: center;*/
+/*align-items: center;*/
+
+/*}*/
+
+/*.registerArrow{*/
+/*position: absolute;*/
+/*right: 26px;*/
+/*top: -24px;*/
+/*font-size: 40px;*/
+/*}*/
+
+/*.registerComponent > .column:nth-child(2){*/
+/*flex: 1;*/
+/*align-self: stretch;*/
+/*display: flex;*/
+/*flex-direction: column;*/
+/*flex-wrap: nowrap;*/
+/*justify-content: center;*/
+/*align-items: center;*/
+
+/*}*/
+
+/*.registerComponent > .column:nth-child(3){*/
+/*flex: 1;*/
+/*align-self: stretch;*/
+/*display: flex;*/
+/*flex-direction: column;*/
+/*flex-wrap: nowrap;*/
+/*justify-content: center;*/
+/*align-items: center;*/
+
+/*}*/
+
+/*.registerComponent > .column:nth-child(4){*/
+/*flex: 1;*/
+/*align-self: stretch;*/
+/*display: flex;*/
+/*flex-direction: column;*/
+/*flex-wrap: nowrap;*/
+/*justify-content: center;*/
+/*align-items: center;*/
+
+/*}*/
+
+/*.registerComponent > .column:nth-child(5){*/
+/*border-top: 1px solid whitesmoke;*/
+/*flex: 0.5;*/
+/*align-self: stretch;*/
+/*display: flex;*/
+/*flex-direction: column;*/
+/*flex-wrap: nowrap;*/
+/*justify-content: center;*/
+/*align-items: center;*/
+/*}*/

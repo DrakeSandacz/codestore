@@ -1,0 +1,67 @@
+.checkoutFormContainer{
+
+}
+
+
+
+/*.checkoutContainer {*/
+    /*position: absolute;*/
+    /*top: 10px;*/
+    /*right: 0;*/
+    /*height: 450px;*/
+    /*width: 300px;*/
+    /*margin-right: 2%;*/
+    /*background-color: #2a2e37;*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*flex-wrap: nowrap;*/
+    /*justify-content: flex-start;*/
+    /*align-items: stretch;*/
+    /*border-radius: 10px;*/
+/*}*/
+
+/*.checkoutImageDisplay {*/
+    /*height: 90%;*/
+    /*width: 100%;*/
+    /*display:flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*align-self: center;*/
+    /*background-color: white;*/
+/*}*/
+
+/*.checkoutImage {*/
+    /*display:flex;*/
+    /*height: calc(100%/3);*/
+    /*width: 100%;*/
+    /*align-self: flex-start;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
+    /*background-image: url('../../css/templates/components/testingmore.png');*/
+
+/*}*/
+
+/*.payButton {*/
+    /*display:inline-flex;*/
+    /*color: #fff;*/
+    /*width: 135px;*/
+    /*height: 50px;*/
+    /*border: 0;*/
+    /*font-size: 13px;*/
+    /*border-radius: 10px;*/
+    /*border: 0px;*/
+    /*transition: .6s;*/
+    /*background-color: #1DBF9C;*/
+    /*font-family: Roboto;*/
+    /*font-weight: bold;*/
+    /*line-height: 15px;*/
+    /*justify-content: center;*/
+    /*align-self: center;*/
+    /*outline: none;*/
+/*}*/
+
+/*.payButton:hover {*/
+    /*background-color: #22ccb5;*/
+    /*cursor: pointer;*/
+/*}*/

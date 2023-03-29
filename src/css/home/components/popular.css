@@ -1,0 +1,49 @@
+.popularContainer{
+
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.popularContainerHeader{
+    border-bottom: 2px solid white;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.popularContainerHeader > h4{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: white;
+    font-weight: 300;
+}
+
+.popularTemplatesContainer{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 600px){
+    .popularContainerHeader > h4{
+        font-size: 32px;
+    }
+}
+
+@media only screen and (max-width: 414px){
+    .popularContainerHeader > h4{
+        font-size: 30px;
+    }
+}

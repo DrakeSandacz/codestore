@@ -1,0 +1,74 @@
+@font-face {
+    font-family: Roboto;
+}
+
+.commentInputContainer{
+    /*height: 200px;*/
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.commentQuill{
+    /*background: #f3f1f2;*/
+    display: block;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.ql-container {
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    background: #fefcfc;
+}
+
+.ql-snow.ql-toolbar {
+    display: block;
+    background: #eaecec;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+}
+
+.ql-editor {
+    min-height: 15em;
+    max-height: 40em;
+}
+
+.commentInput{
+    resize: vertical;
+    border-radius: 2px;
+    font-size: 16px;
+}
+
+.commentInputFooter{
+    height: 50px;
+    width: 90%;
+    /*background-color: black;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+.commentInputFooter > button{
+    margin-right: 10px;
+    height: 45px;
+    width: 100px;
+}
+
+.postButton {
+    background-color: #00AAFF;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+    font-family: Roboto;
+}

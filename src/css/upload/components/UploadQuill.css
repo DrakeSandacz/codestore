@@ -1,0 +1,34 @@
+.quillTime {
+    /*background: #f3f1f2;*/
+    display: block;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+    font-family: sans-serif;
+}
+
+.uploadPage .ql-container {
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    background: #fefcfc;
+}
+
+/* Snow Theme */
+.uploadPage .ql-snow.ql-toolbar {
+    display: block;
+    background: #eaecec;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+}
+
+.uploadPage .ql-editor {
+    min-height: 20em;
+    max-height: 40em;
+}
+
+@media only screen and (max-width: 900px) {
+    .uploadPage .ql-editor {
+        min-height: 10em;
+    }
+}

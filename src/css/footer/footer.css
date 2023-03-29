@@ -1,0 +1,180 @@
+.footer {
+
+    margin-top: 20px;
+    border-top: 1px solid #4d4d4d;
+    height: 300px;
+    width: 100%;
+    background-color: #1d1d1d;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-pack: start;
+    -ms-flex-align: center;
+    align-items: stretch;
+    bottom: 0;
+}
+
+.footerContainer{
+    height: 100%;
+    max-width: 1400px;
+    padding-left: 36px;
+    padding-right: 36px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+}
+
+.footerLinksRow{
+    flex: 1;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.footerLinksRow:nth-child(1){
+    flex: .9;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.footerColumn:nth-child(1){
+    margin-top: 1%;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.footerColumn:nth-child(2){
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 15%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerLinksRow > a {
+    text-align:start;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    line-height: 2.5;
+    padding: 0;
+}
+
+.footerHeader {
+    font-size: 26px;
+    color:white;
+    font-weight: 300;
+    margin-bottom: 10px !important;
+}
+
+.footerLink{
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+
+}
+
+.footerLink:hover{
+    color:gray;
+    text-decoration: none;
+}
+
+.footerColumn > a {
+    text-decoration: none;
+
+}
+
+.footerCopyrightText{
+    color: white;
+}
+
+.emailListContainer {
+    height: 75%;
+    width: 27%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.emailSignUp {
+    height: 30px;
+    width: 85%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #2a2a2a;
+    color: white;
+    font-size: 18px;
+}
+
+.emailSignUp::placeholder {
+    font-size: 18px;
+    color:gray;
+}
+
+@media only screen and (max-width: 642px){
+    .footerLinksRow > p{
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 562px){
+    .footerLinksRow > p{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 825px) {
+    .footerLinksRow:nth-child(2) > span {
+        width: 125px;
+    }
+}
+
+@media only screen and (max-width: 642px) {
+    .footerLinksRow:nth-child(2) > p {
+        padding-left: 24px;
+    }
+}
+
+@media only screen and (max-width: 642px) {
+    .footerLinksRow:nth-child(2) > span {
+        padding-left: 12px;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    .footerLinksRow:nth-child(3) {
+        margin-left: 45px;
+    }
+}
+
+@media only screen and (max-width: 376px){
+    .footerLinksRow:nth-child(2) {
+        width: 125px;
+        margin-left: 8px;
+    }
+}
+
+
+/*footer svg path {*/
+/*stroke-miterlimit: 10;*/
+/*}*/
+
+/*footer .footer_center path, footer .footer_center polygon {*/
+/*stroke: #FFF;*/
+/*fill: #FFF;*/
+/*}*/

@@ -1,0 +1,289 @@
+.authorContainer {
+    display: flex;
+    margin-top: 60px;
+    height: 1500px;
+    width: 100%;
+    flex-direction:column;
+}
+
+.h2Tag {
+    color: white;
+    text-shadow: 0px 0px 5px rgba(0, 0, 5, 0.5);
+    font-weight: 400;
+}
+
+.authorFormContainer:nth-child(1) {
+    flex: .8;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(#1A2980, #318fb8);
+}
+
+.authorFormContainer:nth-child(2) {
+    flex: .9;
+    display:flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin-top: 15px;
+}
+
+.authorFormContainer:nth-child(3){
+    flex: 1.1;
+    display:flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin-top: 40px;
+}
+
+.authorFormContainer:nth-child(4) {
+    flex: .4;
+    display:flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-direction: column;
+    top: 0;
+
+}
+
+.coderKitContainer {
+    flex: 1;
+    display:flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.coderKitImage {
+    height: 325px;
+    width: 425px;
+}
+
+.openShopDescriptionContainer {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.steps {
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+    text-align: left;
+    padding: 0;
+    margin: 5px;
+}
+
+
+.earnContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+}
+
+.openShopButtonContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.openShopButton {
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 20px;
+    color: #fff;
+    width: 140px;
+    height: 50px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #399dff ;
+    transition: .3s ease-out;
+    transition-delay: .1s;
+}
+
+.openShopButton:hover {
+    transition: .3s ease-out;
+    background-color: #3582bc;
+}
+
+.whyContainer {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 150px;
+}
+
+.walletContainer {
+    flex: 1;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.walletImage {
+    display:flex;
+    height: 300px;
+    width: 400px;
+    margin-bottom: 75px;
+}
+
+.perksHeader{
+    padding-left: 15px;
+}
+
+.perks {
+    font-size: 22px;
+    color: white;
+    font-weight: 300;
+    padding: 0;
+    margin: 5px;
+    text-align: left;
+}
+
+.perksSlash {
+    font-size: 22px;
+    color: white;
+    font-weight: 300;
+    text-decoration: line-through;
+}
+
+.openButton {
+    background-color: #38a964;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 20px;
+    color: #fff;
+    width: 140px;
+    height: 50px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: .3s ease-out;
+    transition-delay: .1s;
+}
+
+.shopSignUpContainer {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.openButton:hover {
+    transition: .3s ease-out;
+    background-color: #319457;
+}
+
+@media only screen and (max-width: 870px) {
+    .authorFormContainer:nth-child(1) {
+        flex: .5;
+    }
+}
+
+
+@media only screen and (max-width: 870px) {
+    .authorFormContainer:nth-child(2) {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .walletContainer {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .walletImage {
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .whyContainer {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .authorFormContainer:nth-child(4) {
+        flex: .25;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .authorFormContainer:nth-child(3) {
+        flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .walletImage {
+        height: 350px;
+        width: 300px;
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .coderKitImage{
+        height: 225px;
+        width: 350px;
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .coderKitImage {
+        height: 225px;
+        width: 350px;
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .perksHeader{
+        text-align: left;
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .perks{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .perksSlash{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .shopSignUpContainer{
+        margin-top: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+    .openButton{
+        margin: 0;
+        padding: 0;
+    }
+}
+

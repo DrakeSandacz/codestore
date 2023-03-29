@@ -1,0 +1,165 @@
+.navBar{
+    position: fixed;
+    top:0;
+    height: 60px;
+    z-index: 60;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    background-color: black;
+
+}
+
+
+
+.navBarLeft{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 15%;
+    margin: 0;
+    padding: 0;
+    /*background-color: #1ba1e2;*/
+    transition: all 0.2s ease;
+}
+
+.navBarLeft:hover{
+    background-color: #cacaca2e;
+}
+
+
+.navBarLeft > p{
+    font-size: 22px;
+    font-family: Orbitron;
+    font-weight: 300;
+    color: #FFF;
+}
+
+
+
+.navBarCenter{
+    flex: 1;
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navBarRight{
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
+
+.yourAccountButton{
+    height: 100%;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+
+}
+
+.yourAccountButton > p:nth-child(1){
+    /*margin-top: 0;*/
+    margin-bottom: 0;
+    color: white;
+    text-align: left;
+    margin-top: 5px;
+
+
+}
+
+.yourAccountButton > p:nth-child(2){
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+    font-weight: 600;
+}
+
+.exploreCategories{
+
+}
+
+
+
+
+
+
+
+.navBarRight > p{
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.navBarRight > p:hover{
+    color: #1a86d4;
+}
+
+.navBarRight > span{
+    cursor: pointer;
+}
+
+.shoppingNumber {
+    position:absolute;
+    right:9.35%;
+    top:8%;
+    font-size:40%;
+    padding:.2em;
+    border-radius:50%;
+    line-height:1em;
+    color: white;
+    background:rgba(255,0,0,.85);
+    text-align:center;
+    min-width: 1em;}
+
+span:hover {
+    -webkit-animation-name: wiggle;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 7.8% }
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #148169; }
+}
+@font-face {
+    font-family: Orbitron;
+    src: url('../../fonts/Orbitron/Orbitron-Medium.ttf');
+}
+
+@media only screen and (max-width: 600px){
+    .navBarLeft{
+        flex-basis: 40%;
+    }
+
+    .navBarRight{
+        flex-basis: 20%;
+    }
+}

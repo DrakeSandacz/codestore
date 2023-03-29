@@ -1,0 +1,159 @@
+.productUploaderContainer{
+    margin-top: 15px;
+    height: 225px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.productUploaderContainer > .uploadRow:nth-child(1){
+    margin-right: 10px;
+    /*flex-grow: 0;*/
+    /*flex-shrink: 0;*/
+    /*flex-basis: 70%;*/
+    width: 70%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imagePreviewsContainer{
+    /*background-color: black;*/
+    width: 100%;
+    /*height: 140px;*/
+    /*display: flex;*/
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.imagePreview{
+    max-height: 100px;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.productUploaderContainer > .uploadRow:nth-child(2){
+    margin-left: 10px;
+    flex: 1;
+    align-self: stretch;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.imageUploadContainer{
+    background-color: white;
+    flex: 1;
+    align-self: stretch;
+
+}
+
+
+.zipUploadContainer{
+    height: 90%;
+    width: 90%;
+    background-color: white;
+    flex: 1;
+    align-self: stretch;
+}
+
+/*Custom image upload button css START*/
+.imageButtonWrapper{
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.imageButton{
+    border: none;
+    border-radius: 2px;
+    color: white;
+    background-color: #2ecb95;
+    padding: 8px 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.imageButtonWrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+/*Custom image upload button css END*/
+
+
+
+/*Custom zip upload button styles START*/
+.zipButtonWrapper {
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.zipButton {
+    /*border: 2px solid gray;*/
+    /*cursor: pointer !important;*/
+    border: none;
+    border-radius: 2px;
+    color: white;
+    background-color: #2ecb95;
+    padding: 8px 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
+.zipButtonWrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+/*Custom zip upload button styles END*/
+
+
+
+@media only screen and (max-width: 900px){
+    .productUploaderContainer{
+        height: unset;
+        flex-direction: column;
+    }
+
+    .productUploaderContainer > .uploadRow:nth-child(1){
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .productUploaderContainer > .uploadRow:nth-child(2){
+        margin-left: 0;
+        margin-top: 10px;
+        flex: unset;
+        height: 150px;
+    }
+    
+
+}
